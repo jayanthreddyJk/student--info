@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 80px;
+    font-size: 20px;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 10px;
+    margin-left: 60px;
+}
+h2{
+    margin-top: 50px;
+    margin-left: 55px;
+    padding: 5px;
+}
+.link{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: color 0.2s;
+}
+a:hover{
+    color: blue;
+}
